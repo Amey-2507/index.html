@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e5d0ac;
+}
+#title {
+  flex-grow: 1; /* Allows the text to take up available space */
+  text-align: center; /* Centers the text */
+  font-size: 110px; /* Adjust the text size */
+  color: #fef9e1; /* Matches your color theme */
+}
+#header-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between the image and text */
+  background-color: #6d2323;
+}
+#menu {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #fef9e1;
+}

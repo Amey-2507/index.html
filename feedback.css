@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#title {
+  flex-grow: 1; /* Allows the text to take up available space */
+  text-align: center; /* Centers the text */
+  font-size: 110px; /* Adjust the text size */
+  color: #fef9e1; /* Matches your color theme */
+}
+#header-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between the image and text */
+  background-color: #6d2323;
+}
+#feedback {
+  border: 2px solid black;
+  text-align: center;
+  font-size: 100%;
+  margin-top: 20px;
+  height: auto;
+  width: 450px;
+  margin: 20px auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feedback {
+  margin-top: 30px;
+}
+textarea {
+  height: 185px;
+  width: 300px;
+}
+button {
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
